@@ -3,7 +3,7 @@ This repository contains alarm definitions for the [kafka-alarm-system](https://
 They are formatted one record per line with each record a Kafka key=value with the value in [AVRO JSON Encoding](https://avro.apache.org/docs/current/spec.html#json_encoding) of the [registered-alarms schema](https://github.com/JeffersonLab/kafka-alarm-system/blob/master/schemas/registered-alarms-value.avsc).  This format is easily imported via [script](https://github.com/JeffersonLab/kafka-alarm-system/wiki/Scripts-Reference#import-registrations).
 
 ## Human Readable Formatting
-The machine readable format can be formatted into columns with the Linux command:
+Machine readable format can be obtained using columns with the Linux command:
 ```
 column <file> -t -s "{" -o "{" | column -t -s "," -o "," > <newfile>
 ```
