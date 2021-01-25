@@ -12,5 +12,5 @@ column <file> -t -s "{" -o "{" | column -t -s "," -o "," > <newfile>
 ## File Cleanup
 Remove quotes from key:
 ```
-sed 's/"//' <file> > <newfile>
+sed 's/"//' <file> | sed 's/"//' > <newfile>
 ```
