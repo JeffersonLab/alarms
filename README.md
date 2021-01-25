@@ -8,3 +8,9 @@ The above format is adjusted to a more human readable form using columns with th
 column <file> -t -s "{" -o "{" | column -t -s "," -o "," > <newfile>
 ```
 **Note**: This relies on the fact that JSON ignores whitespace between fields and assumes that the following two characters are not included in any values: `{` and `,`.   You cannot use `:` as a delimiter because that is commonly found inside the pv name field and you cannot use `=` because the key is intepreted up to that symbol so spaces are important before it.
+
+## File Cleanup
+Remove quotes from key:
+```
+sed 's/"//' <file> > <newfile>
+```
