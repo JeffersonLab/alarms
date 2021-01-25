@@ -14,3 +14,8 @@ Remove quotes from key:
 ```
 sed 's/"//' <file> | sed 's/"//' > <newfile>
 ```
+
+Collapse spaces (partially reset column formatting):
+```
+tr -s " " < <file> > <newfile>
+```
