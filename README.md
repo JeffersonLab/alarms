@@ -11,7 +11,7 @@ column <file> -t -s "{" -o "{" | column -t -s "," -o "," > <newfile>
 ```
 **Note**: This relies on the fact that JSON ignores whitespace between fields and assumes that the following two characters are not included in any values: `{` and `,`.   You cannot use `:` as a delimiter because that is commonly found inside the pv name field and you cannot use `=` because the key is intepreted up to that symbol so spaces are important before it.
 
-The _rf_ file contains commas in the _screenpath_ field so only the first piece of the column command can safely be used.   The _list-registered.py_ can be used to output nicely formated messages though (once union qualifier issue is fixed).
+The _rf_ file contains commas in the _screenpath_ field so only the first piece of the column command can safely be used.   The _list-registered.py_ can be used to output nicely formated messages though (once [union qualifier issue](https://github.com/confluentinc/confluent-kafka-python/pull/785) is fixed).
 
 ### File Cleanup
 Remove quotes from key:
