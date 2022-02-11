@@ -1,0 +1,5 @@
+CONDUCTIVITY={"category": "LCW", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 3, "pointofcontactusername": null, "priority": null, "rationale": null}
+FLOW={"category": "LCW", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 3, "pointofcontactusername": null, "priority": null, "rationale": null}
+PRESSURE={"category": "LCW", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 3, "pointofcontactusername": null, "priority": null, "rationale": null}
+TEMPERATURE={"category": "LCW", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 3, "pointofcontactusername": null, "priority": null, "rationale": null}
+WATCHDOG={"category": "LCW", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": 3, "pointofcontactusername": null, "priority": null, "rationale": null}

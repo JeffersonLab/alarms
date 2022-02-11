@@ -1,0 +1,3 @@
+INTERLOCK ALARM={"category": "RFSEP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+RF OFF={"category": "RFSEP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+RFON INHIBITED={"category": "RFSEP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}

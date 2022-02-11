@@ -1,0 +1,3 @@
+VOLTAGE={"category": "CAMAC CRATES", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}
+TEMPERATURE={"category": "CAMAC CRATES", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}
+VOLTAGE={"category": "CAMAC CRATES", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}

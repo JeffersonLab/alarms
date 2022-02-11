@@ -1,0 +1,2 @@
+INTERCEPTION={"category": "APERTURE", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 10, "pointofcontactusername": null, "priority": null, "rationale": null}
+POSITION={"category": "APERTURE", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}

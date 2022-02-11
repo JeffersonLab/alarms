@@ -1,0 +1,6 @@
+NL FORWARD POWER={"class": "POWER", "location": ["NORTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR2"}}, "screencommand": null}
+NL REFLECTED POWER={"class": "POWER", "location": ["NORTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR1"}}, "screencommand": null}
+NL TEMPERATURE={"class": "TEMPERATURE", "location": ["NORTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR3"}}, "screencommand": null}
+SL FORWARD POWER={"class": "POWER", "location": ["SOUTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR2"}}, "screencommand": null}
+SL REFLECTED POWER={"class": "POWER", "location": ["SOUTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR1"}}, "screencommand": null}
+SL TEMPERATURE={"class": "TEMPERATURE", "location": ["SOUTH_LINAC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR3"}}, "screencommand": null}
