@@ -1,0 +1,7 @@
+LOW FREE MEMORY={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+MEMBLOCK={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+PLL UNLOCKED={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+RESTORE NEEDED={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+SYNCH 30 HZ={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+TEMPERATURE={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+WATCHDOG={"category": "IOC", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
