@@ -42,7 +42,7 @@ foreach my $type (@typelist) {
    #Add to the CLASSES.jaws file (comprehensive list)
    #Also create a system specific class file.
    if ($type eq "classes" && $update && !$reqfilename)  {    
-      $filename = "JAWS/CLASSES.jaws";
+      $filename = "JAWS/classes.jaws";
       
       $classfile = "JAWS/$lcsystem.classes";
    

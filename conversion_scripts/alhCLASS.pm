@@ -118,22 +118,30 @@ sub config {
    
 }  
 
-
+sub debug {
+   my $def = $_[0];
+   
+            #(.*)\=.*\"category\":\s+\"(\w+)\"
+   $def =~ m/(.*)\=.*\"category\":\s+\"(.*)\",/;
+#   print("DEBUG <$1> <$2>\n");
+    
+}
 ## Add the new JAWS CLASS  to the official list of classes
 #  @param filename output file (optional)
 sub addCLASSList {
    my $filename = $_[0];
+   
    
    #The existing set of classes.
    my @classnamelist = keys(%classhash);
    my @classdefs;
    my @alllist; 
    my @finalnamelist;
-
+   
    #Need the set of existing, whether or not we're updating the output file.
    my $classfile = $filename;
    if (!$filename) {
-      $classfile = "./JAWS/CLASSES.jaws";
+      $classfile = "./JAWS/classes.jaws";
    }
    #Now, open up the class list file. 
    my @existingdefs;
@@ -148,9 +156,30 @@ sub addCLASSList {
    #Add to hash with temporary key "$name.$category"
    my %finalhash;
    foreach my $def (@existingdefs) {
-      $def =~ m/(\b.*)=.*\"category\":\s+\"(\w+)\"/;
-      my $name = $1;
-      my $category = $2;
+      my $name = $1;      
+      my $category = uc($2);
+      
+      $def =~ s/\n//;
+      if ($def !~ m/(.*)\=.*\"category\":\s+\"(\w+)\"/) {
+         debug($def);
+         if ($def =~ m/(.*)\=.*\"category\":\s+\"(.*)\",/) {
+            
+            $name = $1;
+            $category = $2;
+            
+         } else {
+            debug($def);
+            next;
+         }
+      } else {
+         $def =~ m/(.*)\=.*\"category\":\s+\"(\w+)\"/;
+         $name = $1;
+         $category = $2;
+      }
+      if (!$name) {
+         debug($def);
+         return;
+      }
       my %jawsparams = (
          'name' => $name,
          'category' => $category,
@@ -158,6 +187,7 @@ sub addCLASSList {
       );
       my $jawsclass = new alhCLASS("",%jawsparams);
       my $key = "$name.$category";
+      
       %finalhash->{$key} = $jawsclass;
    }
    
@@ -169,6 +199,7 @@ sub addCLASSList {
       my $name = $jawsclass->{'name'};
       my $category = $jawsclass->{'category'};
       my $finalkey = "$name.$category";
+      
       %finalhash->{$finalkey} = $jawsclass;
    }
    if (!$filename) {
@@ -177,6 +208,7 @@ sub addCLASSList {
    
    #The final list of classes
    my @finallist = sort(keys(%finalhash));
+
    if ($filename) {
       
       open(CLASSES,"> $filename");
@@ -186,15 +218,7 @@ sub addCLASSList {
          print(CLASSES "$def\n");
       }
       close(CLASSES);
-      
-      foreach my $classname (sort(@classnamelist)) {
-         my $class = %classhash->{$classname};
-         my $def = $class->{'jawsdef'};
-         
-         my $jaws = $class->{'alarm'};
-         my $system = $jaws->{'system'};
-         
-      }
+
    } 
    
 }
