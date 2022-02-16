@@ -1,3 +1,0 @@
-DETECTOR OFF={"category": "BELS", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-POWER LIMIT={"category": "BELS", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-SYSTEM ERROR={"category": "BELS", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}

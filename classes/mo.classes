@@ -1,3 +1,0 @@
-FORWARD POWER={"category": "MO", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-REFLECTED POWER={"category": "MO", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-TEMPERATURE={"category": "MO", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}

@@ -1,3 +1,0 @@
-HV FAULT={"category": "IONCHAMBER", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-HV SETPOINT ERROR={"category": "IONCHAMBER", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-HV VOLTAGE MISMATCH={"category": "IONCHAMBER", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}

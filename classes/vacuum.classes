@@ -1,4 +1,0 @@
-HIGH TEMPERATURE={"category": "VACUUM PUMP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-PUMP SPEED={"category": "VACUUM PUMP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-PUMP STATUS={"category": "VACUUM PUMP", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-STATUS={"category": "VACUUM PUMP", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}
