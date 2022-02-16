@@ -1,5 +1,5 @@
-CENTRAL PLUG={"class": "CENTRAL PLUG", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IDA0I04T"}}, "screencommand": null}
-KEITHLEY CURRENT={"class": "KEITHLEY CURRENT", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IGL1I00POTcommErr"}}, "screencommand": null}
-KEITHLEY HV={"class": "KEITHLEY HV", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IGXXI00DCVgunreadcommErr"}}, "screencommand": null}
-MASTER SLIT={"class": "MASTER SLIT", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "ISL0I04DT"}}, "screencommand": null}
+CENTRAL PLUG={"class": "APERTURE INSERTION", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IDA0I04T"}}, "screencommand": null}
+KEITHLEY CURRENT={"class": "KEITHLEY", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IGL1I00POTcommErr"}}, "screencommand": null}
+KEITHLEY HV={"class": "KEITHLEY", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IGXXI00DCVgunreadcommErr"}}, "screencommand": null}
+MASTER SLIT={"class": "APERTURE INSERTION", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "ISL0I04DT"}}, "screencommand": null}
 SF6 TANK PRESSURE={"class": "SF6 TANK PRESSURE", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "IGL0I00TANKPSIAVG"}}, "screencommand": null}

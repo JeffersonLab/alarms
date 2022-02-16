@@ -1,0 +1,8 @@
+MHE0L01V LOAD={"class": "LOAD", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_BP1"}}, "screencommand": null}
+MHE0L01V ON={"class": "ON", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_en1"}}, "screencommand": null}
+MHE0L02H LOAD={"class": "LOAD", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_BP2"}}, "screencommand": null}
+MHE0L02H ON={"class": "ON", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_en2"}}, "screencommand": null}
+MHE0L03H LOAD={"class": "LOAD", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_BP4"}}, "screencommand": null}
+MHE0L03H ON={"class": "ON", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_en4"}}, "screencommand": null}
+MHE0L03V LOAD={"class": "LOAD", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_BP3"}}, "screencommand": null}
+MHE0L03V ON={"class": "ON", "location": ["INJECTOR"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "hel_mag_en3"}}, "screencommand": null}

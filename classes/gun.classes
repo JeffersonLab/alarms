@@ -1,5 +1,3 @@
-CENTRAL PLUG={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-KEITHLEY CURRENT={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}
-KEITHLEY HV={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
-MASTER SLIT={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+APERTURE INSERTION={"category": "APERTURE", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
+KEITHLEY={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": null, "offdelayseconds": null, "ondelayseconds": 60, "pointofcontactusername": null, "priority": null, "rationale": null}
 SF6 TANK PRESSURE={"category": "GUN", "correctiveaction": null, "filterable": null, "latching": true, "offdelayseconds": null, "ondelayseconds": null, "pointofcontactusername": null, "priority": null, "rationale": null}
