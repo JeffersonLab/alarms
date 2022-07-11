@@ -1,4 +1,4 @@
-Alarm Trip Level={"class": "Trip Level", "location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXFLT"}}, "screencommand": null}
-Demand Power Logger={"class": "Logger","location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXLOGWRN"}}, "screencommand": null}
-Demand Power Sequencer={"class": "Sequencer","location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXLOGACK"}}, "screencommand": null}
-Warning Trip Level={"class": "Trip Level", "location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXWRN"}}, "screencommand": null}
+Alarm Trip Level={"class": "Trip Level", "location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXFLT"}}, "screencommand": null}
+Demand Power Logger={"class": "Logger","location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXLOGWRN"}}, "screencommand": null}
+Demand Power Sequencer={"class": "Sequencer","location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXLOGACK"}}, "screencommand": null}
+Warning Trip Level={"class": "Trip Level", "location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "PXXXWRN"}}, "screencommand": null}

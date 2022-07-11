@@ -1,6 +1,6 @@
-NL MO Forward Power={"class": "MO Forward Power", "location": ["North Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR2"}}, "screencommand": null}
-NL MO Reflected Power={"class": "MO Reflected Power", "location": ["North Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR1"}}, "screencommand": null}
-NL MO Temperature={"class": "MO Temperature", "location": ["North Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR3"}}, "screencommand": null}
-SL MO Forward Power={"class": "MO Forward Power", "location": ["South Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR2"}}, "screencommand": null}
-SL MO Reflected Power={"class": "MO Reflected Power", "location": ["South Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR1"}}, "screencommand": null}
-SL MO Temperature={"class": "MO Temperature", "location": ["South Linac"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR3"}}, "screencommand": null}
+NL MO Forward Power={"class": "MO Forward Power", "location": ["North Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR2"}}, "screencommand": null}
+NL MO Reflected Power={"class": "MO Reflected Power", "location": ["North Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR1"}}, "screencommand": null}
+NL MO Temperature={"class": "MO Temperature", "location": ["North Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R1XXMOIFERR3"}}, "screencommand": null}
+SL MO Forward Power={"class": "MO Forward Power", "location": ["South Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR2"}}, "screencommand": null}
+SL MO Reflected Power={"class": "MO Reflected Power", "location": ["South Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR1"}}, "screencommand": null}
+SL MO Temperature={"class": "MO Temperature", "location": ["South Linac"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "R2XXMOIFERR3"}}, "screencommand": null}

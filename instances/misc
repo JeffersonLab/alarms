@@ -1,3 +1,3 @@
-33MV Voltage={"class": "Substation Voltage", "location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "33MVA:llVolt"}}, "screencommand": null}
-40MV Voltage={"class": "Substation Voltage", "location": ["Site"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "40MVA:llVolt"}}, "screencommand": null}
-RF Modulation On, FFB System Off={"class": "FFB", "location": ["HallA","HallC"], "maskedby": null, "producer": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "RFModLeftOn"}}, "screencommand": null}
+33MV Voltage={"class": "Substation Voltage", "location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "33MVA:llVolt"}}, "screencommand": null}
+40MV Voltage={"class": "Substation Voltage", "location": ["Site"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "40MVA:llVolt"}}, "screencommand": null}
+RF Modulation On, FFB System Off={"class": "FFB", "location": ["HallA","HallC"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSProducer": {"pv": "RFModLeftOn"}}, "screencommand": null}
