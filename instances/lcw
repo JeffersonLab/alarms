@@ -1,7 +1,7 @@
-East Arc LCW Conductivity={"alarmclass": "LCW Conductivity", "location": ["EastArc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Condy_EA_In"}}, "screencommand": null}
-East Arc LCW Flow={"alarmclass": "LCW Flow", "location": ["EastArc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Flow_EAx"}}, "screencommand": null}
-East Arc Lcw Pressure={"alarmclass": "LCW Differential Pressure", "location": ["EastArc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_DP_EA"}}, "screencommand": null}
-East Arc LCW Temperature={"alarmclass": "LCW Temperature", "location": ["EastArc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Tmp_EAx"}}, "screencommand": null}
+East Arc LCW Conductivity={"alarmclass": "LCW Conductivity", "location": ["East Arc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Condy_EA_In"}}, "screencommand": null}
+East Arc LCW Flow={"alarmclass": "LCW Flow", "location": ["East Arc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Flow_EAx"}}, "screencommand": null}
+East Arc Lcw Pressure={"alarmclass": "LCW Differential Pressure", "location": ["East Arc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_DP_EA"}}, "screencommand": null}
+East Arc LCW Temperature={"alarmclass": "LCW Temperature", "location": ["East Arc"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:38_Tmp_EAx"}}, "screencommand": null}
 Injector LCW Flow={"alarmclass": "LCW Flow", "location": ["Injector"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "4DL_FS1_LCW"}}, "screencommand": null}
 Injector Lcw Pressure={"alarmclass": "LCW Differential Pressure", "location": ["Injector"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "lcw:67_Press_Inj"}}, "screencommand": null}
 Injector LCW Temperature={"alarmclass": "LCW Temperature", "location": ["Injector"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "4DL_TC3_LCW"}}, "screencommand": null}
