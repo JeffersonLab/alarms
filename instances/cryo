@@ -22,5 +22,5 @@ Linac Heaters={"alarmclass": "Linac Heaters", "location": ["CHL"], "maskedby": n
 Linac Liquid Levels={"alarmclass": "Linac Liquid Levels", "location": ["CHL"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CLL"}}, "screencommand": null}
 Linac Temperatures={"alarmclass": "Linac Temperatures", "location": ["CHL"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CLOLTD"}}, "screencommand": null}
 R. COLD CompressorS={"alarmclass": "Compressor", "location": ["CHL"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CCHL2KR"}}, "screencommand": null}
-SBR Compressor={"alarmclass": "Compressor", "location": ["SBR"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CSBRCMP"}}, "screencommand": null}
-VTA Contamination={"alarmclass": "Contamination", "location": ["VTA"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CCFVTACT"}}, "screencommand": null}
+SBR Compressor={"alarmclass": "Compressor", "location": ["CHL"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CSBRCMP"}}, "screencommand": null}
+VTA Contamination={"alarmclass": "Contamination", "location": ["CHL"], "maskedby": null, "source": {"org.jlab.jaws.entity.EPICSSource": {"pv": "CCFVTACT"}}, "screencommand": null}
