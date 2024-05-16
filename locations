@@ -40,7 +40,6 @@ HallA={"parent": "CEBAF"}
 HallB={"parent": "CEBAF"}
 HallC={"parent": "CEBAF"}
 HallD={"parent": "CEBAF"}
-ACC={"parent": "CEBAF"}
 MCC={"parent": "CEBAF"}
 GTS={"parent": "LERF"}
 CHL={"parent": "JLAB"}
