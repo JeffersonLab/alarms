@@ -1,4 +1,9 @@
 # alarms
+
+```
+NOTE: This repo is legacy as production data is stored in an Oracle database.  This repo provides good test data though.
+```
+
 This repository contains alarm definitions for [JAWS](https://github.com/JeffersonLab/jaws) for use at Jefferson Lab.  Alarms are defined by their registration class record and their registration instance record.  An `Effective Registration = Alarm Class + Alarm Instance`.  This is useful because an alarm class (type) generally shares the same rationale and corrective action (and potentially other fields) for hundreds or even thousands of instances.
 
 
